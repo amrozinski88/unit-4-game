@@ -1,6 +1,18 @@
+body {
+    color: whitesmoke;
+    background: grey
+}
 .header {
     font-weight: bolder;
-    color: whitesmoke;
+    margin-top: 10px;
     height: 80px;
     font-size: 55px;
+}
+    .scoreBox {
+    margin-top:20px; 
+    height: 80px;
+}
+.gem{
+    width: 80px;
+    margin-top: 20px;
 }

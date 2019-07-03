@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12 header bg-info text-center">
-                Crystal Collector 
+        <div class="row header">
+            <div class="col-12 bg-info text-center rounded-lg">
+                <h1>Crystal Collector</h1>
             </div>
+        </div>
+        <div class="row current scoreBox">
+            <div class="currentNumDiv col-lg-4 bg-info text-center">
+                <h2> Current Number</h2>
+                <h3 id="currentNumber"></h3>
+            </div>
+            <div class="goalNumberDiv col-lg-4 bg-info text-center ml-4">
+                <h2>Goal Number</h2>
+                <h3 id="goalNumber"> </h3>
+            </div>
+        </div>
+
+        <div class="row winsDiv scoreBox">
+            <div class="col-lg-4 bg-info text-center">
+                <h2>wins</h2>
+                <h3 id="wins"></h3>
+            </div>
+        </div>
+
+        <div class="row  scoreBox">
+            <div class="lossesDiv col-lg-4 bg-info text-center">
+                <h2>Losses</h2>
+                <h3 id="losses"></h3>
+            </div>
+        </div>
+        <div class="row gemsDiv">
+            <div class="col-lg-3 gem">
+                <img src="./assets/images/emerald.png" class="gem" id="gem1">
+            </div>
+            <div class="col-lg-3 gem">
+                <img src="./assets/images/gem.png" class="gem" id="gem2">
+            </div>
+            <div class="col-lg-3 gem">
+                <img src="./assets/images/ruby.png" class="gem" id="gem3">
+            </div>
+            <div class="col-lg-3 gem">
+                <img src="./assets/images/slot-machine.png" class="gem" id="gem4">
+            </div>
+
+
         </div>
 
 
@@ -26,8 +69,23 @@
 
 
 
+
+
+
+
+
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
 
 </body>
+
 </html>
