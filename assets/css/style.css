@@ -7,6 +7,7 @@ body {
     margin-top: 10px;
     height: 80px;
     font-size: 55px;
+    border-radius: 50;
 }
     .scoreBox {
     margin-top:20px; 
